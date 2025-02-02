@@ -10,7 +10,15 @@ namespace ConsoleApp19
     {
         static void Main(string[] args)
         {
-           
+            PrintFirstFiveNumbers(1, 4);
+        }
+        
+        static void PrintFirstFiveNumbers(int a1, int d)
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write($"{a1 + i * d} ");
+            }
         }
     }
 }
